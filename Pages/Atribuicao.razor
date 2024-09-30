@@ -1,0 +1,46 @@
+﻿@page "/atribuicao"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador")]
+@inject HttpClient Http
+
+<h3>Atribuição de Professores às Disciplinas</h3>
+<EditForm Model="atribuicao" OnValidSubmit="HandleAtribuicao">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Disciplina:</label>
+        <InputText @bind-Value="atribuicao.Disciplina" />
+    </div>
+    <div>
+        <label>Professor:</label>
+        <InputText @bind-Value="atribuicao.Professor" />
+    </div>
+    <button type="submit">Atribuir</button>
+</EditForm>
+
+@code {
+    private Atribuicao atribuicao = new Atribuicao();
+
+    private async Task HandleAtribuicao()
+    {
+        var response = await Http.PostAsJsonAsync("api/atribuicao", atribuicao);
+        if (response.IsSuccessStatusCode)
+        {
+            // Lógica após a atribuição
+        }
+    }
+
+    public class Atribuicao
+    {
+        public string Disciplina { get; set; }
+        public string Professor { get; set; }
+    }
+}
+

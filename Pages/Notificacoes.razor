@@ -1,0 +1,45 @@
+﻿@page "/notificacoes"
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador, Professor")]
+@inject HttpClient Http
+
+<h3>Envio de Notificações e Alertas</h3>
+<EditForm Model="novaNotificacao" OnValidSubmit="HandleEnvioNotificacao">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Destinatário:</label>
+        <InputText @bind-Value="novaNotificacao.Destinatario" />
+    </div>
+    <div>
+        <label>Mensagem:</label>
+        <InputTextArea @bind-Value="novaNotificacao.Mensagem" />
+    </div>
+    <button type="submit">Enviar Notificação</button>
+</EditForm>
+
+@code {
+    private Notificacao novaNotificacao = new Notificacao();
+
+    private async Task HandleEnvioNotificacao()
+    {
+        var response = await Http.PostAsJsonAsync("api/notificacoes", novaNotificacao);
+        if (response.IsSuccessStatusCode)
+        {
+            // Lógica após o envio da notificação
+        }
+    }
+
+    public class Notificacao
+    {
+        public string Destinatario { get; set; }
+        public string Mensagem { get; set; }
+    }
+}
+

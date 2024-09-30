@@ -1,0 +1,46 @@
+﻿@page "/disciplinas"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador")]
+@inject HttpClient Http
+
+<h3>Cadastro de Disciplinas e Turmas</h3>
+<EditForm Model="newDisciplina" OnValidSubmit="HandleCadastroDisciplina">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Nome da Disciplina:</label>
+        <InputText @bind-Value="newDisciplina.Nome" />
+    </div>
+    <div>
+        <label>Turma:</label>
+        <InputText @bind-Value="newDisciplina.Turma" />
+    </div>
+    <button type="submit">Cadastrar</button>
+</EditForm>
+
+@code {
+    private Disciplina newDisciplina = new Disciplina();
+
+    private async Task HandleCadastroDisciplina()
+    {
+        var response = await Http.PostAsJsonAsync("api/disciplinas", newDisciplina);
+        if (response.IsSuccessStatusCode)
+        {
+            // Lógica após o cadastro
+        }
+    }
+
+    public class Disciplina
+    {
+        public string Nome { get; set; }
+        public string Turma { get; set; }
+    }
+}
+

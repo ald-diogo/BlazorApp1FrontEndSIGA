@@ -1,0 +1,10 @@
+﻿@using BlazorApp1FrontEndSIGA.Service
+
+@inherits LayoutComponentBase
+@inject GreetingService GreetingService
+
+<div>
+    <h1>@GreetingService.GetGreeting()</h1>
+    @Body
+</div>
+

@@ -1,0 +1,51 @@
+﻿@page "/frequencia"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Professor")]
+@inject HttpClient Http
+
+<h3>Registro e Acompanhamento de Frequência dos Estudantes</h3>
+<EditForm Model="frequencia" OnValidSubmit="HandleRegistroFrequencia">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Estudante:</label>
+        <InputText @bind-Value="frequencia.Estudante" />
+    </div>
+    <div>
+        <label>Disciplina:</label>
+        <InputText @bind-Value="frequencia.Disciplina" />
+    </div>
+    <div>
+        <label>Presença:</label>
+        <InputCheckbox @bind-Value="frequencia.Presenca" />
+    </div>
+    <button type="submit">Registrar</button>
+</EditForm>
+
+@code {
+    private Frequencia frequencia = new Frequencia();
+
+    private async Task HandleRegistroFrequencia()
+    {
+        var response = await Http.PostAsJsonAsync("api/frequencia", frequencia);
+        if (response.IsSuccessStatusCode)
+        {
+            // Lógica após o registro
+        }
+    }
+
+    public class Frequencia 
+    {
+        public string Estudante { get; set; }
+        public string Disciplina { get; set; }
+        public bool Presenca { get; set; }
+    }
+}
+

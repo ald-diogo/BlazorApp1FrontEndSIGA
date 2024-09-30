@@ -1,0 +1,61 @@
+﻿@page "/mensagens"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+@inject HttpClient Http
+
+<h3>Sistema de Mensagens Internas</h3>
+<EditForm Model="novaMensagem" OnValidSubmit="HandleEnvioMensagem">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Para:</label>
+        <InputText @bind-Value="novaMensagem.Para" />
+    </div>
+    <div>
+        <label>Mensagem:</label>
+        <InputTextArea @bind-Value="novaMensagem.Conteudo" />
+    </div>
+    <button type="submit">Enviar Mensagem</button>
+</EditForm>
+
+<h4>Mensagens Recebidas</h4>
+<ul>
+    @foreach (var mensagem in mensagensRecebidas)
+    {
+        <li>@mensagem.De: @mensagem.Conteudo</li>
+    }
+</ul>
+
+@code {
+    private Mensagem novaMensagem = new Mensagem();
+    private List<Mensagem> mensagensRecebidas = new List<Mensagem>();
+
+    private async Task HandleEnvioMensagem()
+    {
+        var response = await Http.PostAsJsonAsync("api/mensagens", novaMensagem);
+        if (response.IsSuccessStatusCode)
+        {
+            // Lógica após o envio da mensagem
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        mensagensRecebidas = await Http.GetFromJsonAsync<List<Mensagem>>("api/mensagens/recebidas");
+    }
+
+    public class Mensagem
+    {
+        public string De { get; set; }
+        public string Para { get; set; }
+        public string Conteudo { get; set; }
+    }
+}
+

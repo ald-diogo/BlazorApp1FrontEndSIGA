@@ -1,0 +1,633 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\entidades\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:entidades\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\listarfeedbacks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\listarfeedbacks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\estatisticas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\estatisticas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\service\\backupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:service\\backupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\backup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\backup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\disciplinas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\disciplinas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\service\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:service\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\feedback.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\feedback.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\entidades\\evalution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:entidades\\evalution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\mensagem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\mensagem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\relatorio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\relatorio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\service\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:service\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\frequencia.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\frequencia.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\notas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\notas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\notificacoes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\notificacoes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\service\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:service\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\service\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:service\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\service\\greetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:service\\greetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\service\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:service\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\calendar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\calendar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\atribuicao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\atribuicao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\entidades\\atribuicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:entidades\\atribuicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\entidades\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:entidades\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\entidades\\frequencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:entidades\\frequencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\entidades\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:entidades\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\entidades\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:entidades\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\adddiscipline.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\adddiscipline.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\service\\disciplineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:service\\disciplineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|c:\\users\\francisco diogo\\documents\\meus projectos\\blazorapp1frontendsiga\\blazorapp1frontendsiga.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED38BCCB-C35E-4A69-BDC8-CFCCF6B6A16E}|BlazorApp1FrontEndSIGA.csproj|solutionrelative:blazorapp1frontendsiga.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Backup.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Backup.razor",
+              "RelativeDocumentMoniker": "Pages\\Backup.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Backup.razor",
+              "RelativeToolTip": "Pages\\Backup.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T14:03:57.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListarFeedbacks.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\ListarFeedbacks.razor",
+              "RelativeDocumentMoniker": "Pages\\ListarFeedbacks.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\ListarFeedbacks.razor",
+              "RelativeToolTip": "Pages\\ListarFeedbacks.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T13:50:45.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Estatisticas.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Estatisticas.razor",
+              "RelativeDocumentMoniker": "Pages\\Estatisticas.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Estatisticas.razor",
+              "RelativeToolTip": "Pages\\Estatisticas.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T13:15:49.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FeedbackService.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\FeedbackService.cs",
+              "RelativeDocumentMoniker": "Service\\FeedbackService.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\FeedbackService.cs",
+              "RelativeToolTip": "Service\\FeedbackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:52:50.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Disciplinas.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Disciplinas.razor",
+              "RelativeDocumentMoniker": "Pages\\Disciplinas.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Disciplinas.razor",
+              "RelativeToolTip": "Pages\\Disciplinas.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T11:59:49.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Feedback.cs",
+              "RelativeDocumentMoniker": "Entidades\\Feedback.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Feedback.cs",
+              "RelativeToolTip": "Entidades\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:50:58.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BackupService.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\BackupService.cs",
+              "RelativeDocumentMoniker": "Service\\BackupService.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\BackupService.cs",
+              "RelativeToolTip": "Service\\BackupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:48:56.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Feedback.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Feedback.razor",
+              "RelativeDocumentMoniker": "Pages\\Feedback.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Feedback.razor",
+              "RelativeToolTip": "Pages\\Feedback.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T09:52:22.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Evalution.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Evalution.cs",
+              "RelativeDocumentMoniker": "Entidades\\Evalution.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Evalution.cs",
+              "RelativeToolTip": "Entidades\\Evalution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T13:43:02.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mensagem.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Mensagem.razor",
+              "RelativeDocumentMoniker": "Pages\\Mensagem.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Mensagem.razor",
+              "RelativeToolTip": "Pages\\Mensagem.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T12:53:46.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Relatorio.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Relatorio.razor",
+              "RelativeDocumentMoniker": "Pages\\Relatorio.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Relatorio.razor",
+              "RelativeToolTip": "Pages\\Relatorio.razor",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T13:19:52.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\ReportService.cs",
+              "RelativeDocumentMoniker": "Service\\ReportService.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\ReportService.cs",
+              "RelativeToolTip": "Service\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:23:56.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Notas.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Notas.razor",
+              "RelativeDocumentMoniker": "Pages\\Notas.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Notas.razor",
+              "RelativeToolTip": "Pages\\Notas.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T12:39:30.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Notificacoes.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Notificacoes.razor",
+              "RelativeDocumentMoniker": "Pages\\Notificacoes.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Notificacoes.razor",
+              "RelativeToolTip": "Pages\\Notificacoes.razor",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T13:06:15.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\UserService.cs",
+              "RelativeToolTip": "Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T08:40:12.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Frequencia.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Frequencia.razor",
+              "RelativeDocumentMoniker": "Pages\\Frequencia.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Frequencia.razor",
+              "RelativeToolTip": "Pages\\Frequencia.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T12:10:14.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\CustomAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "Service\\CustomAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\CustomAuthenticationStateProvider.cs",
+              "RelativeToolTip": "Service\\CustomAuthenticationStateProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T08:57:22.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GradeService.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\GradeService.cs",
+              "RelativeDocumentMoniker": "Service\\GradeService.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\GradeService.cs",
+              "RelativeToolTip": "Service\\GradeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:11:51.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GreetingService.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\GreetingService.cs",
+              "RelativeDocumentMoniker": "Service\\GreetingService.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\GreetingService.cs",
+              "RelativeToolTip": "Service\\GreetingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:28:17.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Service\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\NotificationService.cs",
+              "RelativeToolTip": "Service\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:18:08.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ThemeService.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\ThemeService.cs",
+              "RelativeDocumentMoniker": "Service\\ThemeService.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\ThemeService.cs",
+              "RelativeToolTip": "Service\\ThemeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:03:06.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Calendar.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Calendar.razor",
+              "RelativeDocumentMoniker": "Pages\\Calendar.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Calendar.razor",
+              "RelativeToolTip": "Pages\\Calendar.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T09:39:28.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Logout.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Logout.razor",
+              "RelativeDocumentMoniker": "Pages\\Logout.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Logout.razor",
+              "RelativeToolTip": "Pages\\Logout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T11:43:30.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Atribuicao.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Atribuicao.razor",
+              "RelativeDocumentMoniker": "Pages\\Atribuicao.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Atribuicao.razor",
+              "RelativeToolTip": "Pages\\Atribuicao.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T12:02:59.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Atribuicao.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Atribuicao.cs",
+              "RelativeDocumentMoniker": "Entidades\\Atribuicao.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Atribuicao.cs",
+              "RelativeToolTip": "Entidades\\Atribuicao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T12:05:32.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Discipline.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Discipline.cs",
+              "RelativeDocumentMoniker": "Entidades\\Discipline.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Discipline.cs",
+              "RelativeToolTip": "Entidades\\Discipline.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:02:25.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Frequencia.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Frequencia.cs",
+              "RelativeDocumentMoniker": "Entidades\\Frequencia.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Frequencia.cs",
+              "RelativeToolTip": "Entidades\\Frequencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T12:13:07.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Grade.cs",
+              "RelativeDocumentMoniker": "Entidades\\Grade.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\Grade.cs",
+              "RelativeToolTip": "Entidades\\Grade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:10:34.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T08:54:00.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\User.cs",
+              "RelativeDocumentMoniker": "Entidades\\User.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Entidades\\User.cs",
+              "RelativeToolTip": "Entidades\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T08:32:33.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Login.razor",
+              "RelativeToolTip": "Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T11:14:52.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Profile.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Profile.razor",
+              "RelativeDocumentMoniker": "Pages\\Profile.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Profile.razor",
+              "RelativeToolTip": "Pages\\Profile.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T10:54:21.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AddDiscipline.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\AddDiscipline.razor",
+              "RelativeDocumentMoniker": "Pages\\AddDiscipline.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\AddDiscipline.razor",
+              "RelativeToolTip": "Pages\\AddDiscipline.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T09:03:58.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Pages\\Register.razor",
+              "RelativeToolTip": "Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T08:35:19.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T10:28:05.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DisciplineService.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\DisciplineService.cs",
+              "RelativeDocumentMoniker": "Service\\DisciplineService.cs",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Service\\DisciplineService.cs",
+              "RelativeToolTip": "Service\\DisciplineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:04:46.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T09:27:31.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BlazorApp1FrontEndSIGA.csproj",
+              "DocumentMoniker": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\BlazorApp1FrontEndSIGA.csproj",
+              "RelativeDocumentMoniker": "BlazorApp1FrontEndSIGA.csproj",
+              "ToolTip": "C:\\Users\\Francisco Diogo\\Documents\\Meus Projectos\\BlazorApp1FrontEndSIGA\\BlazorApp1FrontEndSIGA.csproj",
+              "RelativeToolTip": "BlazorApp1FrontEndSIGA.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-27T08:38:17.948Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

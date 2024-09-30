@@ -1,0 +1,27 @@
+﻿@page "/feedback-list"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Forms;
+@inject FeedbackService FeedbackService
+
+<ul>
+    @foreach (var feedback in feedbacks)
+    {
+        <li>@feedback.UserName: @feedback.Comments (Nota: @feedback.Rating)</li>
+    }
+</ul>
+
+@code {
+    private List<Feedback> feedbacks;
+
+    protected override async Task OnInitializedAsync()
+    {
+        feedbacks = await FeedbackService.GetFeedbacks();
+    }
+}
+

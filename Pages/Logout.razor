@@ -1,0 +1,20 @@
+﻿@page "/logout"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@inject NavigationManager Navigation
+@inject HttpClient Http
+
+<h3>Logging out...</h3>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await Http.PostAsync("api/logout", null);
+        Navigation.NavigateTo("/login");
+    }
+}
+

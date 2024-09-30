@@ -1,0 +1,35 @@
+﻿@page "/feedback"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@using Microsoft.AspNetCore.Authorization
+@inject FeedbackService FeedbackService
+
+<EditForm Model="newFeedback" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText id="userName" @bind-Value="newFeedback.UserName" placeholder="Seu nome" />
+    <InputTextArea id="comments" @bind-Value="newFeedback.Comments" placeholder="Seu feedback" />
+    <InputNumber id="rating" @bind-Value="newFeedback.Rating" placeholder="Nota (1-5)" />
+
+    <button type="submit">Enviar Feedback</button>
+</EditForm>
+
+@code {
+    private Feedback newFeedback = new Feedback();
+		internal DateTime Date;
+		internal int Id;
+
+		private async Task HandleValidSubmit()
+    {
+        await FeedbackService.AddFeedback(newFeedback);
+        newFeedback = new Feedback();
+    }
+}
+
+
+

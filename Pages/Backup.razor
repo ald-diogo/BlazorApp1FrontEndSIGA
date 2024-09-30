@@ -1,0 +1,27 @@
+﻿@page "/backup"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@using Microsoft.AspNetCore.Authorization
+@inject BackupService BackupService
+
+<button @onclick="BackupData">Backup</button>
+<button @onclick="RestoreData">Restore</button>
+
+@code {
+    private async Task BackupData()
+    {
+        var data = new { /* seus dados aqui */ };
+        await BackupService.BackupDataAsync(data);
+    }
+
+    private async Task RestoreData()
+    {
+        var data = await BackupService.RestoreDataAsync<object>();
+        // Processar os dados restaurados
+    }
+}
+

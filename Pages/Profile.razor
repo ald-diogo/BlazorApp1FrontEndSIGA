@@ -1,0 +1,42 @@
+﻿@page "/profile"
+@attribute [Authorize(Roles = "Administrador, Professor, Estudante")]
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@using Microsoft.AspNetCore.Authorization
+@inject HttpClient Http
+
+
+<h3>Perfil do Usuário</h3>
+<div>
+    <label>Nome:</label>
+    <p>@user.Name</p>
+</div>
+<div>
+    <label>Email:</label>
+    <p>@user.Email</p>
+</div>
+<div>
+    <label>Função:</label>
+    <p>@user.Role</p>
+</div>
+
+@code {
+    private User user = new User();
+
+    protected override async Task OnInitializedAsync()
+    {
+        user = await Http.GetFromJsonAsync<User>("api/user");
+    }
+
+    public class User
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Role { get; set; }
+    }
+}
+

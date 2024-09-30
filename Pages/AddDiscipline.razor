@@ -1,0 +1,26 @@
+﻿@page "/add-discipline"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@inject DisciplineService DisciplineService
+
+<h3>Adicionar Disciplina</h3>
+<EditForm Model="@discipline" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <InputText id="name" @bind-Value="discipline.Name" placeholder="Nome da Disciplina" />
+    <button type="submit">Adicionar</button>
+</EditForm>
+
+@code {
+    private Discipline discipline = new Discipline();
+
+    private async Task HandleValidSubmit()
+    {
+        await DisciplineService.AddDiscipline(discipline);
+    }
+}
+

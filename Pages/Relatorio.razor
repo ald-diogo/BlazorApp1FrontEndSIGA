@@ -1,0 +1,44 @@
+﻿@page "/relatorios"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador, Professor")]
+@inject HttpClient Http
+
+<h3>Geração de Relatórios Detalhados</h3>
+<button @onclick="GerarRelatorio">Gerar Relatório</button>
+
+@if (relatorio != null)
+{
+    <div>
+        <h4>Relatório de Desempenho Acadêmico</h4>
+        <p>Maior Nota: @relatorio.MaiorNota</p>
+        <p>Menor Nota: @relatorio.MenorNota</p>
+        <p>Média Geral: @relatorio.MediaGeral</p>
+        <p>Frequência Média: @relatorio.FrequenciaMedia</p>
+        <p>Desempenho: @relatorio.Desempenho</p>
+    </div>
+}
+
+@code {
+    private Relatorio relatorio;
+
+    private async Task GerarRelatorio()
+    {
+        relatorio = await Http.GetFromJsonAsync<Relatorio>("api/relatorios/desempenho");
+    }
+
+    public class Relatorio
+    {
+        public double MaiorNota { get; set; }
+        public double MenorNota { get; set; }
+        public double MediaGeral { get; set; }
+        public double FrequenciaMedia { get; set; }
+        public string Desempenho { get; set; }
+    }
+}
+

@@ -1,0 +1,78 @@
+﻿@page "/notas"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Shared
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Professor")]
+@inject HttpClient Http
+
+<h3>Gestão de Notas e Avaliações</h3>
+<EditForm Model="novaNota" OnValidSubmit="HandleInsercaoNota">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Estudante:</label>
+        <InputText @bind-Value="novaNota.Estudante" />
+    </div>
+    <div>
+        <label>Disciplina:</label>
+        <InputText @bind-Value="novaNota.Disciplina" />
+    </div>
+    <div>
+        <label>Nota:</label>
+        <InputNumber @bind-Value="novaNota.Valor" />
+    </div>
+    <button type="submit">Inserir Nota</button>
+</EditForm>
+
+<h4>Relatório de Desempenho</h4>
+<button @onclick="GerarRelatorio">Gerar Relatório</button>
+
+@if (relatorio != null)
+{
+    <div>
+        <p>Maior Nota: @relatorio.MaiorNota</p>
+        <p>Menor Nota: @relatorio.MenorNota</p>
+        <p>Média Geral: @relatorio.MediaGeral</p>
+        <p>Desempenho: @relatorio.Desempenho</p>
+    </div>
+}
+
+@code {
+    private Nota novaNota = new Nota();
+    private Relatorio relatorio;
+
+    private async Task HandleInsercaoNota()
+    {
+        var response = await Http.PostAsJsonAsync("api/notas", novaNota);
+        if (response.IsSuccessStatusCode)
+        {
+            // Lógica após a inserção da nota
+        }
+    }
+
+    private async Task GerarRelatorio()
+    {
+        relatorio = await Http.GetFromJsonAsync<Relatorio>("api/notas/relatorio");
+    }
+
+    public class Nota
+    {
+        public string Estudante { get; set; }
+        public string Disciplina { get; set; }
+        public double Valor { get; set; }
+    }
+
+    public class Relatorio
+    {
+        public double MaiorNota { get; set; }
+        public double MenorNota { get; set; }
+        public double MediaGeral { get; set; }
+        public string Desempenho { get; set; }
+    }
+}
+

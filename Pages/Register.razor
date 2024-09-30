@@ -1,0 +1,47 @@
+﻿@page "/register"
+@using BlazorApp1FrontEndSIGA
+@using BlazorApp1FrontEndSIGA.Pages
+@using BlazorApp1FrontEndSIGA.Layout
+@using BlazorApp1FrontEndSIGA.Entidades
+@using BlazorApp1FrontEndSIGA.Service
+@using BlazorApp1FrontEndSIGA.Shared
+@inject HttpClient Http
+@inject NavigationManager Navigation
+@inject UserService UserService
+
+<h3>Registro de Usuário</h3>
+<EditForm Model="@user" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Nome:</label>
+        <InputText id="name" @bind-Value="user.Name" placeholder="Nome" />
+    </div>
+    <div>
+        <label>Email:</label>
+        <InputText id="email" @bind-Value="user.Email" placeholder="Email" />
+    </div>
+    <div>
+        <label>Telefone:</label>
+        <InputText id="phone" @bind-Value="user.Phone" placeholder="Telefone" />
+    </div>
+    <div>
+        <label>Senha:</label>
+        <InputText @bind-Value="user.Password" type="password" />
+    </div>
+    
+    <button type="submit">Registrar</button>
+</EditForm>
+
+@code {
+    private User user = new User();
+
+    private async Task HandleValidSubmit()
+    {
+        await UserService.RegisterUser(user);
+        Navigation.NavigateTo("/");
+    }
+    
+}
+
