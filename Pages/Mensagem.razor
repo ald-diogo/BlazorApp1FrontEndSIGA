@@ -6,6 +6,7 @@
 @using BlazorApp1FrontEndSIGA.Layout
 @using BlazorApp1FrontEndSIGA.Shared
 @using Microsoft.AspNetCore.Authorization
+@using System.Diagnostics
 @attribute [Authorize]
 @inject HttpClient Http
 
@@ -16,11 +17,11 @@
 
     <div>
         <label>Para:</label>
-        <InputText @bind-Value="novaMensagem.Para" />
+        
     </div>
     <div>
         <label>Mensagem:</label>
-        <InputTextArea @bind-Value="novaMensagem.Conteudo" />
+        <InputTextArea @bind="nova_Mensagem.Conteudo" />
     </div>
     <button type="submit">Enviar Mensagem</button>
 </EditForm>
@@ -29,7 +30,7 @@
 <ul>
     @foreach (var mensagem in mensagensRecebidas)
     {
-        <li>@mensagem.De: @mensagem.Conteudo</li>
+        <li>@mensagem.: @mensagem.:</li>
     }
 </ul>
 
@@ -51,11 +52,23 @@
         mensagensRecebidas = await Http.GetFromJsonAsync<List<Mensagem>>("api/mensagens/recebidas");
     }
 
-    public class Mensagem
+    [DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
+    public class mensagem  
     {
+        public void MetodoMensagem()
+        {
+        }
+
         public string De { get; set; }
         public string Para { get; set; }
         public string Conteudo { get; set; }
+        public DateTime DateEnvio { get; set; }
+
+        private string GetDebuggerDisplay()
+        {
+            return ToString();
+        }
     }
 }
+
 

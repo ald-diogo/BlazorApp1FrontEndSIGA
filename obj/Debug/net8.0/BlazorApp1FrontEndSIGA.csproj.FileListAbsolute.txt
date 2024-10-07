@@ -1,0 +1,7 @@
+C:\Users\Francisco Diogo\Documents\Meus Projectos\BlazorApp1FrontEndSIGA\obj\Debug\net8.0\BlazorApp1FrontEndSIGA.csproj.AssemblyReference.cache
+C:\Users\Francisco Diogo\Documents\Meus Projectos\BlazorApp1FrontEndSIGA\obj\Debug\net8.0\BlazorApp1FrontEndSIGA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Francisco Diogo\Documents\Meus Projectos\BlazorApp1FrontEndSIGA\obj\Debug\net8.0\BlazorApp1FrontEndSIGA.AssemblyInfoInputs.cache
+C:\Users\Francisco Diogo\Documents\Meus Projectos\BlazorApp1FrontEndSIGA\obj\Debug\net8.0\BlazorApp1FrontEndSIGA.AssemblyInfo.cs
+C:\Users\Francisco Diogo\Documents\Meus Projectos\BlazorApp1FrontEndSIGA\obj\Debug\net8.0\BlazorApp1FrontEndSIGA.csproj.CoreCompileInputs.cache
+C:\Users\Francisco Diogo\Documents\Meus Projectos\BlazorApp1FrontEndSIGA\obj\Debug\net8.0\BlazorApp1FrontEndSIGA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Francisco Diogo\Documents\Meus Projectos\BlazorApp1FrontEndSIGA\obj\Debug\net8.0\BlazorApp1FrontEndSIGA.sourcelink.json

@@ -6,45 +6,69 @@
 @using BlazorApp1FrontEndSIGA.Layout
 @using BlazorApp1FrontEndSIGA.Shared
 @using Microsoft.AspNetCore.Authorization
+@using System.Diagnostics
+@using static BlazorApp1FrontEndSIGA.Pages.Estatisticas
 @attribute [Authorize(Roles = "Administrador, Professor")]
 @inject HttpClient Http
 
 <h3>Estatísticas das Notas e Frequência</h3>
 <button @onclick="GerarEstatisticas">Gerar Estatísticas</button>
 
-@if (estatisticas != null)
+@code {
+    private EstatisticasModel Estatisticas = new EstatisticasModel();
+
+    protected override void OnInitialized()
+    {
+        // Inicialize a propriedade Estatisticas aqui
+        Estatisticas.NotasMediasPorDisciplina = new Dictionary<string, double>
+        {
+            
+        };
+
+        Estatisticas.FrequenciaMediaPorDisciplina = new Dictionary<string, double>
+        {
+            
+        };
+    }
+
+    public class EstatisticasModel
+    {
+        public Dictionary<string, double> NotasMediasPorDisciplina { get; set; }
+        public Dictionary<string, double> FrequenciaMediaPorDisciplina { get; set; }
+    }
+
+    private void GerarEstatisticas()
+    {
+        // Lógica para gerar estatísticas
+        Estatisticas.NotasMediasPorDisciplina = new Dictionary<string, double>
+        {
+            
+        };
+
+        Estatisticas.FrequenciaMediaPorDisciplina = new Dictionary<string, double>
+        {
+           
+        };
+    }
+}
+
+@if (Estatisticas != null)
 {
     <div>
         <h4>Estatísticas Acadêmicas</h4>
         <p>Notas Médias por Disciplina:</p>
         <ul>
-            @foreach (var item in estatisticas.NotasMediasPorDisciplina)
+            @foreach (var item in Estatisticas.NotasMediasPorDisciplina)
             {
                 <li>@item.Key: @item.Value</li>
             }
         </ul>
         <p>Frequência Média por Disciplina:</p>
         <ul>
-            @foreach (var item in estatisticas.FrequenciaMediaPorDisciplina)
+            @foreach (var item in Estatisticas.FrequenciaMediaPorDisciplina)
             {
                 <li>@item.Key: @item.Value</li>
             }
         </ul>
     </div>
 }
-
-@code {
-    private Estatisticas estatisticas;
-
-    private async Task GerarEstatisticas()
-    {
-        estatisticas = await Http.GetFromJsonAsync<Estatisticas>("api/estatisticas/academicas");
-    }
-
-    public class Estatisticas
-    {
-        public Dictionary<string, double> NotasMediasPorDisciplina { get; set; }
-        public Dictionary<string, double> FrequenciaMediaPorDisciplina { get; set; }
-    }
-}
-

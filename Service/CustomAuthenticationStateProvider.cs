@@ -5,7 +5,9 @@ using BlazorApp1FrontEndSIGA.Layout;
 using BlazorApp1FrontEndSIGA.Pages;
 using BlazorApp1FrontEndSIGA.Service;
 using BlazorApp1FrontEndSIGA.Shared;
-
+using System.Security.Claims;
+using System.Threading.Tasks;
+using static BlazorApp1FrontEndSIGA.Service.CustomAuthenticationStateProvider;
 
 namespace BlazorApp1FrontEndSIGA.Service
 {
@@ -16,24 +18,6 @@ namespace BlazorApp1FrontEndSIGA.Service
         public CustomAuthenticationStateProvider(UserService userService)
         {
             _userService = userService;
-        }
-
-        public override Task<AuthenticationState> GetAuthenticationStateAsync()
-        {
-            var identity = new ClaimsIdentity();
-            var user = _userService.GetUserById("some-user-id").Result; // Simulação de usuário logado
-
-            if (user != null)
-            {
-                identity = new ClaimsIdentity(new[]
-                {
-                new Claim(ClaimTypes.Name, user.Name),
-                new Claim(ClaimTypes.Role, user.Role)
-            }, "apiauth_type");
-            }
-
-            var userPrincipal = new ClaimsPrincipal(identity);
-            return Task.FromResult(new AuthenticationState(userPrincipal));
         }
     }
 
@@ -47,7 +31,16 @@ namespace BlazorApp1FrontEndSIGA.Service
         public ClaimsPrincipal UserPrincipal { get; }
     }
 
-    public class AuthenticationStateProvider
+    public class AuthenticationStateProvider : AuthenticationStateProviderBase
     {
     }
+
+    public class AuthenticationStateProviderBase
+    {
+        private async Task<bool> GetCustomAuthenticationStateAsync()
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
+

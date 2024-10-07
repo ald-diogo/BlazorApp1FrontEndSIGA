@@ -24,9 +24,10 @@ namespace BlazorApp1FrontEndSIGA.Service
 
         public Task<double> CalculateAverageGrade(string disciplineId)
         {
-            var grades = grades.Where(g => g.DisciplineId == disciplineId).ToList();
-            return Task.FromResult(grades.Average(g => g.Value));
+            var disciplineGrades = grades.Where(g => g.DisciplineId == disciplineId).ToList();
+            return Task.FromResult(disciplineGrades.Average(g => g.Value));
         }
     }
+
 
 }

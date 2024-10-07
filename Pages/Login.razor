@@ -6,6 +6,7 @@
 @using BlazorApp1FrontEndSIGA.Layout
 @using BlazorApp1FrontEndSIGA.Shared
 
+@inject IJSRuntime JSRuntime
 @inject NavigationManager Navigation
 @inject HttpClient Http
 
@@ -38,9 +39,10 @@
         }
     }
 
-    private void ConfirmLogout()
+    private async Task ConfirmLogout()
     {
-        if (confirm("Você realmente deseja encerrar a sessão?"))
+        bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", "Você realmente deseja encerrar a sessão?");
+        if (confirmed)
         {
             Logout();
         }

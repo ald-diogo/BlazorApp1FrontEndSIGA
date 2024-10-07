@@ -6,6 +6,7 @@
 @using BlazorApp1FrontEndSIGA.Layout
 @using BlazorApp1FrontEndSIGA.Shared
 @using Microsoft.AspNetCore.Authorization
+@using System.Diagnostics
 @attribute [Authorize(Roles = "Administrador, Professor")]
 @inject HttpClient Http
 
@@ -32,13 +33,23 @@
         relatorio = await Http.GetFromJsonAsync<Relatorio>("api/relatorios/desempenho");
     }
 
+    [DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
     public class Relatorio
     {
+        public void MetodoRelatorio()
+        {
+        }
+
         public double MaiorNota { get; set; }
         public double MenorNota { get; set; }
         public double MediaGeral { get; set; }
         public double FrequenciaMedia { get; set; }
         public string Desempenho { get; set; }
+
+        private string GetDebuggerDisplay()
+        {
+            return ToString();
+        }
     }
 }
 

@@ -6,6 +6,7 @@
 @using BlazorApp1FrontEndSIGA.Layout
 @using BlazorApp1FrontEndSIGA.Shared
 @using Microsoft.AspNetCore.Authorization
+@using System.Diagnostics
 @inject FeedbackService FeedbackService
 
 <EditForm Model="newFeedback" OnValidSubmit="HandleValidSubmit">
@@ -29,7 +30,27 @@
         await FeedbackService.AddFeedback(newFeedback);
         newFeedback = new Feedback();
     }
+
+    [DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
+
+    public class Feedback 
+    {
+        public void MetodoFeedback()
+        {
+        }
+
+        public string UserName { get; set; }
+        public string Comments { get; set; }
+        public int Rating { get; set; }
+
+        private string GetDebuggerDisplay()
+        {
+            return ToString();
+        }
+    }
+
 }
+
 
 
 

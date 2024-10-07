@@ -5,23 +5,30 @@ using BlazorApp1FrontEndSIGA.Pages;
 using BlazorApp1FrontEndSIGA.Service;
 using BlazorApp1FrontEndSIGA.Shared;
 
-namespace BlazorApp1FrontEndSIGA.Service
-{
-    public class UserService
+    namespace BlazorApp1FrontEndSIGA.Service
     {
-        private readonly List<User> users = new List<User>();
+      public interface IUserService
+      {
+        Task<User> GetUserByIdAsync(string userId);
+      }
 
-        public Task RegisterUser(User user)
+      public class UserService : IUserService
+      {
+        public async Task<User> GetUserByIdAsync(string userId)
         {
-            user.Id = Guid.NewGuid().ToString();
-            users.Add(user);
-            return Task.CompletedTask;
+            // Simulação de uma chamada assíncrona para obter o usuário
+            await Task.Delay(100); // Simula um atraso
+            return new User { Name = "", Role = "Admin" };
         }
+      }
 
-        public Task<User> GetUserById(string id)
-        {
-            return Task.FromResult(users.FirstOrDefault(u => u.Id == id));
-        }
+     public class User
+    {
+        public string Name { get; set; }
+        public string Role { get; set; }
     }
 
-}
+
+    }
+
+

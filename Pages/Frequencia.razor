@@ -6,6 +6,7 @@
 @using BlazorApp1FrontEndSIGA.Layout
 @using BlazorApp1FrontEndSIGA.Shared
 @using Microsoft.AspNetCore.Authorization
+@using System.Diagnostics
 @attribute [Authorize(Roles = "Professor")]
 @inject HttpClient Http
 
@@ -41,11 +42,22 @@
         }
     }
 
-    public class Frequencia 
+    [DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
+
+    public class Frequencia
     {
+        public void MetodoFrequencia()
+        {
+            
+        }
+
         public string Estudante { get; set; }
         public string Disciplina { get; set; }
         public bool Presenca { get; set; }
+
+        private string GetDebuggerDisplay()
+        {
+            return ToString();
+        }
     }
 }
-

@@ -46,7 +46,27 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.Forms": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
               "target": "Package",
               "version": "[8.0.8, )"
             },
@@ -66,6 +86,14 @@
               "target": "Package",
               "version": "[8.0.8, )",
               "autoReferenced": true
+            },
+            "NuGet.Packaging": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

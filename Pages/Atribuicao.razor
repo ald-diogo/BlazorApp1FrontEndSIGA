@@ -6,6 +6,8 @@
 @using BlazorApp1FrontEndSIGA.Layout
 @using BlazorApp1FrontEndSIGA.Shared
 @using Microsoft.AspNetCore.Authorization
+@using System.Diagnostics
+@using static BlazorApp1FrontEndSIGA.Pages.Atribuicao
 @attribute [Authorize(Roles = "Administrador")]
 @inject HttpClient Http
 
@@ -37,10 +39,22 @@
         }
     }
 
+    [DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
+
     public class Atribuicao
     {
+        public void MetodoAtribuicao()
+        {
+        }
+
         public string Disciplina { get; set; }
         public string Professor { get; set; }
+
+        private string GetDebuggerDisplay()
+        {
+            return ToString();
+        }
     }
+
 }
 
